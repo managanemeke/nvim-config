@@ -51,6 +51,15 @@ nvim lua/plugins.lua
 :PackerSync
 ```
 
+## install lsp
+
+```vim
+:LspInstall
+```
+
+- sumneko_lua (lua)
+- pyright (python)
+
 ## links
 
 - [one-nvim-to-rule-them-all](https://habr.com/ru/articles/706110/)
