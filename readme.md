@@ -63,3 +63,4 @@ nvim lua/plugins.lua
 ## links
 
 - [one-nvim-to-rule-them-all](https://habr.com/ru/articles/706110/)
+- [fastest-vimer](https://youtu.be/y6VJBeZEDZU?si=_-0nfEhPhGH4DaEQ)
