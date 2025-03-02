@@ -54,10 +54,10 @@ nvim lua/plugins.lua
 ## install lsp
 
 ```vim
-:LspInstall
+:Mason
 ```
 
-- sumneko_lua (lua)
+- lua-language-server (lua)
 - pyright (python)
 
 ## links
