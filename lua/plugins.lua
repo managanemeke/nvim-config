@@ -83,14 +83,14 @@ return require('packer').startup(function(use)
   -- Snippets plugin
   use 'L3MON4D3/LuaSnip'
 
-  -- Highlight, edit, and navigate code using a fast incremental parsing library
-  use 'nvim-treesitter/nvim-treesitter'
-
   -- Линтер, работает для всех языков
   use 'dense-analysis/ale'
   ---------------------------------------------------------
   -- РАЗНОЕ
   ---------------------------------------------------------
-  -- Даже если включена русская раскладка, то nvim-команды будут работать
+  
+  
+  -- nvim commands working even with russuan layout
   use 'powerman/vim-plugin-ruscmd'
+
 end)
