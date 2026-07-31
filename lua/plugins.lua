@@ -93,4 +93,17 @@ return require('packer').startup(function(use)
   -- nvim commands working even with russuan layout
   use 'powerman/vim-plugin-ruscmd'
 
+  use({
+    'm4xshen/smartcolumn.nvim',
+    config = function()
+      require("smartcolumn").setup({
+        colorcolumn = "50",
+        disabled_filetypes = {},
+        custom_colorcolumn = {},
+        scope = "file",
+        editorconfig = true, 
+      })
+    end
+  })
+  
 end)
