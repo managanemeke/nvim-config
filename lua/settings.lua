@@ -1,3 +1,5 @@
+vim.g.editorconfig = true
+
 local opt = vim.opt
 
 -----------------------------------------------------------
