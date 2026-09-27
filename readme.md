@@ -2,6 +2,11 @@
 
 ## install neovim
 
+
+```bash
+pkg install neovim -y
+```
+
 ```bash
 sudo apt install neovim
 ```
