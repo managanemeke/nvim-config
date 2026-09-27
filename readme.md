@@ -1,5 +1,23 @@
 # nvim-config
 
+## install all on android-termux
+
+```bash
+pkg install curl git lua5.1 luarocks neovim -y
+```
+
+## install curl and git
+
+```bash
+pkg install curl git -y
+```
+
+## install lua
+
+```bash
+pkg install lua5.1 luarocks -y
+```
+
 ## install neovim
 
 
