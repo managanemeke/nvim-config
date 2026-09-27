@@ -2,48 +2,48 @@
 
 ## install neovim
 
-```shell
+```bash
 sudo apt install neovim
 ```
 
-```shell
+```bash
 sudo pacman -S neovim
 ```
 
 ## check neovim version
 
-```shell
+```bash
 nvim --version
 ```
 
 ## create neovim link
 
-```shell
+```bash
 sudo ln -s /usr/bin/nvim /usr/bin/neovim
 ```
 
 ## clone this repository
 
-```shell
+```bash
 cd ~/.config
 ```
 
-```shell
+```bash
 git clone git@github.com:managanemeke/nvim-config.git nvim
 ```
 
-```shell
+```bash
 cd nvim
 ```
 
 ## install packer and plugins
 
-```shell
+```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim \
   ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-```shell
+```bash
 nvim lua/plugins.lua
 ```
 
