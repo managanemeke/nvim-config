@@ -15,10 +15,11 @@ return require('packer').startup(function(use)
   end, }
   -- Тема в стиле Rose Pine
   use({
-    'rose-pine/neovim',
-    as = 'rose-pine',
+    'folke/tokyonight.nvim',
+    as = 'tokyonight',
     config = function()
-      vim.cmd('colorscheme rose-pine')
+      require("tokyonight").setup()
+      vim.cmd('colorscheme tokyonight-moon')
     end
   })
   ---------------------------------------------------------
